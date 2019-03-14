@@ -1,0 +1,24 @@
+{
+  "name": "wonder-editor-produce",
+  "version": "0.0.1",
+  "authors": "Wonder",
+  "description": "online 3d webgl editor",
+  "scripts": {
+    "start:online": "pm2 start ./server/app.js",
+    "start": "node ./server/app.js"
+  },
+  "keywords": [
+    "wonder",
+    "webgl",
+    "functional-programming",
+    "3d",
+    "editor",
+    "reasonml"
+  ],
+  "devDependencies": {
+    "express": "^4.16.1",
+    "http": "^0.0.0"
+  },
+  "dependencies": {},
+  "resolutions": {}
+}
